@@ -1,0 +1,47 @@
+{
+  "name": "web-dev",
+  "version": "1.0.0",
+  "description": "Web Dev at Northeastern University",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "mongoose": "^4.4.15",
+    "multer": "^1.3.0",
+    "passport": "^0.3.2",
+    "passport-google-oauth": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "q": "^1.5.0",
+    "textangular": "^1.5.16",
+    "browser-sync": "^2.13.0",
+    "font-awesome": "^4.6.3",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.10",
+    "gulp-header": "^1.8.7",
+    "gulp-less": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.4",
+    "jquery": "^1.11.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jose G. Annunziato",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidharththapar/thapar-sidharth-webdev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sidharththapar/thapar-sidharth-webdev/issues"
+  },
+  "homepage": "https://github.com/sidharththapar/thapar-sidharth-webdev#readme"
+}
